@@ -61,6 +61,10 @@ public class MaquinaExpendedoraSimple {
         balanceClienteActual = balanceClienteActual + cantidadIntroducida;
     }
 
+    public void reducirPrecioBillete(int precioAReducir) {
+        precioBillete -= precioAReducir;
+    }
+    
     /**
      * Imprime un billete para el cliente actual
      */
